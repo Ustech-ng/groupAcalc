@@ -1,0 +1,58 @@
+
+/* Style the calculator */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Calculator{
+    margin: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 2%;
+    padding: 10px;
+    max-width: 40%;
+    min-width: fit-content;
+    
+}
+#display {
+  max-width: 90%;
+  min-width: 90%;
+  height: 50px;
+  font-size: 24px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  margin: 0%;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dad7d7;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8b8787;
+}
+
+#equal{
+    background-color: blue;
+    height: 150p;
+    grid-template-columns: max-content;
+}
+#zero{
+    width: 150p;
+}
