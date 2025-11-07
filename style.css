@@ -1,7 +1,10 @@
 
 /* Style the calculator */
 body {
- 
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .Calculator{
@@ -55,4 +58,5 @@ button:hover {
     width: 150p;
 
 }
+
 
